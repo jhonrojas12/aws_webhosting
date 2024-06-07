@@ -6,7 +6,7 @@ plugins:
   - serverless-export-outputs
 
 custom:
-  name: yancui
+  name: jhone
   unicornStableApi: h48kqx343c.execute-api.us-east-1.amazonaws.com/dev
   client:
     bucketName: ${self:service}-${sls:stage}.us-east-1.frontend
